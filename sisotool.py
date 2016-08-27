@@ -25,10 +25,10 @@ class Ui_MainWindow(object):
 
 
         MainWindow.setFixedSize(503, 637)
-        #MainWindow.resize(503, 637)
         MainWindow.setFocusPolicy(QtCore.Qt.StrongFocus)
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
+        
         self.lineEdit_6 = QtGui.QLineEdit(self.centralwidget)
         self.lineEdit_6.setGeometry(QtCore.QRect(190, 60, 91, 21))
         self.lineEdit_6.setObjectName(_fromUtf8("lineEdit_6"))
@@ -47,6 +47,7 @@ class Ui_MainWindow(object):
         font.setItalic(False)
         font.setWeight(75)
         font.setKerning(False)
+        
         self.pushButton_2.setFont(font)
         self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
         self.verticalLayoutWidget_2 = QtGui.QWidget(self.centralwidget)
@@ -55,41 +56,50 @@ class Ui_MainWindow(object):
         self.verticalLayout_2 = QtGui.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_2.setObjectName(_fromUtf8("verticalLayout_2"))
         self.label_3 = QtGui.QLabel(self.verticalLayoutWidget_2)
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+        
         self.label_3.setFont(font)
         self.label_3.setObjectName(_fromUtf8("label_3"))
         self.verticalLayout_2.addWidget(self.label_3)
         self.label_4 = QtGui.QLabel(self.verticalLayoutWidget_2)
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+        
         self.label_4.setFont(font)
         self.label_4.setObjectName(_fromUtf8("label_4"))
         self.verticalLayout_2.addWidget(self.label_4)
         self.label_5 = QtGui.QLabel(self.verticalLayoutWidget_2)
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+        
         self.label_5.setFont(font)
         self.label_5.setObjectName(_fromUtf8("label_5"))
         self.verticalLayout_2.addWidget(self.label_5)
         self.label_6 = QtGui.QLabel(self.verticalLayoutWidget_2)
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+        
         self.label_6.setFont(font)
         self.label_6.setObjectName(_fromUtf8("label_6"))
         self.verticalLayout_2.addWidget(self.label_6)
+        
         self.comboBox = QtGui.QComboBox(self.centralwidget)
         self.comboBox.setGeometry(QtCore.QRect(10, 10, 201, 26))
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
@@ -98,23 +108,27 @@ class Ui_MainWindow(object):
         self.comboBox.addItem(_fromUtf8(""))
         self.comboBox.addItem(_fromUtf8(""))
         self.comboBox.addItem(_fromUtf8(""))
-        #self.comboBox.setItemText(4, _fromUtf8(""))
+        
         self.textBrowser = QtGui.QTextBrowser(self.centralwidget)
         self.textBrowser.setGeometry(QtCore.QRect(310, 30, 171, 61))
         self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
         self.label_2 = QtGui.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(310, 10, 181, 16))
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setBold(True)
         font.setWeight(75)
+        
         self.label_2.setFont(font)
         self.label_2.setObjectName(_fromUtf8("label_2"))
         self.label = QtGui.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(65, 60, 121, 21))
+        
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
+        
         self.label.setFont(font)
         self.label.setObjectName(_fromUtf8("label"))
         self.verticalLayoutWidget = QtGui.QWidget(self.centralwidget)
@@ -122,41 +136,52 @@ class Ui_MainWindow(object):
         self.verticalLayoutWidget.setObjectName(_fromUtf8("verticalLayoutWidget"))
         self.verticalLayout = QtGui.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
+        
         self.lineEdit = QtGui.QLineEdit(self.verticalLayoutWidget)
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
         self.verticalLayout.addWidget(self.lineEdit)
+        
         self.lineEdit_2 = QtGui.QLineEdit(self.verticalLayoutWidget)
         self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
         self.verticalLayout.addWidget(self.lineEdit_2)
+        
         self.lineEdit_4 = QtGui.QLineEdit(self.verticalLayoutWidget)
         self.lineEdit_4.setObjectName(_fromUtf8("lineEdit_4"))
         self.verticalLayout.addWidget(self.lineEdit_4)
+        
         self.lineEdit_5 = QtGui.QLineEdit(self.verticalLayoutWidget)
         self.lineEdit_5.setObjectName(_fromUtf8("lineEdit_5"))
+        
         self.verticalLayout.addWidget(self.lineEdit_5)
         self.verticalLayoutWidget_3 = QtGui.QWidget(self.centralwidget)
         self.verticalLayoutWidget_3.setGeometry(QtCore.QRect(10, 270, 201, 111))
         self.verticalLayoutWidget_3.setObjectName(_fromUtf8("verticalLayoutWidget_3"))
         self.verticalLayout_3 = QtGui.QVBoxLayout(self.verticalLayoutWidget_3)
         self.verticalLayout_3.setObjectName(_fromUtf8("verticalLayout_3"))
+        
         self.checkBox_2 = QtGui.QCheckBox(self.verticalLayoutWidget_3)
         self.checkBox_2.setObjectName(_fromUtf8("checkBox_2"))
         self.verticalLayout_3.addWidget(self.checkBox_2)
+        
         self.checkBox = QtGui.QCheckBox(self.verticalLayoutWidget_3)
         self.checkBox.setObjectName(_fromUtf8("checkBox"))
         self.verticalLayout_3.addWidget(self.checkBox)
+        
         self.checkBox_3 = QtGui.QCheckBox(self.verticalLayoutWidget_3)
         self.checkBox_3.setObjectName(_fromUtf8("checkBox_3"))
         self.verticalLayout_3.addWidget(self.checkBox_3)
+        
         self.checkBox_4 = QtGui.QCheckBox(self.verticalLayoutWidget_3)
         self.checkBox_4.setObjectName(_fromUtf8("checkBox_4"))
         self.verticalLayout_3.addWidget(self.checkBox_4)
+        
         self.verticalLayoutWidget_4 = QtGui.QWidget(self.centralwidget)
         self.verticalLayoutWidget_4.setGeometry(QtCore.QRect(10, 100, 201, 141))
         self.verticalLayoutWidget_4.setObjectName(_fromUtf8("verticalLayoutWidget_4"))
         self.verticalLayout_4 = QtGui.QVBoxLayout(self.verticalLayoutWidget_4)
         self.verticalLayout_4.setObjectName(_fromUtf8("verticalLayout_4"))
         self.label_7 = QtGui.QLabel(self.verticalLayoutWidget_4)
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(15)
@@ -164,73 +189,86 @@ class Ui_MainWindow(object):
         font.setUnderline(False)
         font.setWeight(75)
         font.setKerning(False)
+        
         self.label_7.setFont(font)
         self.label_7.setMouseTracking(False)
         self.label_7.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_7.setObjectName(_fromUtf8("label_7"))
         self.verticalLayout_4.addWidget(self.label_7)
         self.label_8 = QtGui.QLabel(self.verticalLayoutWidget_4)
+        
         font = QtGui.QFont()
         font.setUnderline(False)
+        
         self.label_8.setFont(font)
         self.label_8.setObjectName(_fromUtf8("label_8"))
         self.verticalLayout_4.addWidget(self.label_8)
         self.lineEdit_3 = QtGui.QLineEdit(self.verticalLayoutWidget_4)
         self.lineEdit_3.setObjectName(_fromUtf8("lineEdit_3"))
-        
-        #self.lineEdit_3.setText('1,4')
+
         self.verticalLayout_4.addWidget(self.lineEdit_3)
         self.label_9 = QtGui.QLabel(self.verticalLayoutWidget_4)
+        
         font = QtGui.QFont()
         font.setUnderline(False)
+        
         self.label_9.setFont(font)
         self.label_9.setObjectName(_fromUtf8("label_9"))
         self.verticalLayout_4.addWidget(self.label_9)
         self.lineEdit_7 = QtGui.QLineEdit(self.verticalLayoutWidget_4)
         self.lineEdit_7.setObjectName(_fromUtf8("lineEdit_7"))
         
-        #self.lineEdit_7.setText('1,3,6')  
         self.verticalLayout_4.addWidget(self.lineEdit_7)
         self.label_10 = QtGui.QLabel(self.centralwidget)
         self.label_10.setGeometry(QtCore.QRect(10, 250, 31, 16))
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setBold(True)
         font.setWeight(75)
+        
         self.label_10.setFont(font)
         self.label_10.setObjectName(_fromUtf8("label_10"))
+        
         self.System_Characteristics_textBrowser = QtGui.QTextBrowser(self.centralwidget)
         self.System_Characteristics_textBrowser.setGeometry(QtCore.QRect(260, 290, 171, 41))
         self.System_Characteristics_textBrowser.setObjectName(_fromUtf8("System_Characteristics_textBrowser"))
+        
         self.Plant_tf_textBrowser = QtGui.QTextBrowser(self.centralwidget)
         self.Plant_tf_textBrowser.setGeometry(QtCore.QRect(260, 360, 171, 71))
         self.Plant_tf_textBrowser.setObjectName(_fromUtf8("Plant_tf_textBrowser"))
         self.Label_System_Char = QtGui.QLabel(self.centralwidget)
         self.Label_System_Char.setGeometry(QtCore.QRect(280, 270, 131, 20))
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+        
         self.Label_System_Char.setFont(font)
         self.Label_System_Char.setObjectName(_fromUtf8("Label_System_Char"))
         self.Label_Plant_TF = QtGui.QLabel(self.centralwidget)
         self.Label_Plant_TF.setGeometry(QtCore.QRect(280, 340, 131, 21))
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+        
         self.Label_Plant_TF.setFont(font)
         self.Label_Plant_TF.setObjectName(_fromUtf8("Label_Plant_TF"))
         self.pushButton_clear_fields = QtGui.QPushButton(self.centralwidget)
         self.pushButton_clear_fields.setGeometry(QtCore.QRect(50, 520, 101, 31))
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(10)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
+        
         self.pushButton_clear_fields.setFont(font)
         self.pushButton_clear_fields.setObjectName(_fromUtf8("pushButton_clear_fields"))
         self.Controller_Plant_textBrowser = QtGui.QTextBrowser(self.centralwidget)
@@ -238,11 +276,13 @@ class Ui_MainWindow(object):
         self.Controller_Plant_textBrowser.setObjectName(_fromUtf8("Controller_Plant_textBrowser"))
         self.label_Controller_Plant_Label = QtGui.QLabel(self.centralwidget)
         self.label_Controller_Plant_Label.setGeometry(QtCore.QRect(250, 440, 191, 21))
+        
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+        
         self.label_Controller_Plant_Label.setFont(font)
         self.label_Controller_Plant_Label.setObjectName(_fromUtf8("label_Controller_Plant_Label"))
         self.verticalLayoutWidget_5 = QtGui.QWidget(self.centralwidget)
@@ -251,15 +291,19 @@ class Ui_MainWindow(object):
         self.verticalLayout_5 = QtGui.QVBoxLayout(self.verticalLayoutWidget_5)
         self.verticalLayout_5.setObjectName(_fromUtf8("verticalLayout_5"))
         self.checkBox_OS = QtGui.QCheckBox(self.verticalLayoutWidget_5)
+        
         font = QtGui.QFont()
         font.setPointSize(11)
+        
         self.checkBox_OS.setFont(font)
         self.checkBox_OS.setAutoFillBackground(False)
         self.checkBox_OS.setObjectName(_fromUtf8("checkBox_OS"))
         self.verticalLayout_5.addWidget(self.checkBox_OS)
         self.checkBox_Ts = QtGui.QCheckBox(self.verticalLayoutWidget_5)
+        
         font = QtGui.QFont()
         font.setPointSize(11)
+        
         self.checkBox_Ts.setFont(font)
         self.checkBox_Ts.setObjectName(_fromUtf8("checkBox_Ts"))
         self.verticalLayout_5.addWidget(self.checkBox_Ts)
@@ -318,22 +362,7 @@ class Ui_MainWindow(object):
         self.verticalLayoutWidget_7.setObjectName(_fromUtf8("verticalLayoutWidget_7"))
         self.verticalLayout_complex_buttons = QtGui.QVBoxLayout(self.verticalLayoutWidget_7)
         self.verticalLayout_complex_buttons.setObjectName(_fromUtf8("verticalLayout_complex_buttons"))
-        #self.checkBox_complex_z1 = QtGui.QCheckBox(self.verticalLayoutWidget_7)
-        #self.checkBox_complex_z1.setText(_fromUtf8(""))
-        #self.checkBox_complex_z1.setObjectName(_fromUtf8("checkBox_complex_z1"))
-        #self.verticalLayout_complex_buttons.addWidget(self.checkBox_complex_z1)
-        #self.checkBox_complex_z2 = QtGui.QCheckBox(self.verticalLayoutWidget_7)
-        #self.checkBox_complex_z2.setText(_fromUtf8(""))
-        #self.checkBox_complex_z2.setObjectName(_fromUtf8("checkBox_complex_z2"))
-        #self.verticalLayout_complex_buttons.addWidget(self.checkBox_complex_z2)
-        #self.checkBox_complex_p1 = QtGui.QCheckBox(self.verticalLayoutWidget_7)
-        #self.checkBox_complex_p1.setText(_fromUtf8(""))
-        #self.checkBox_complex_p1.setObjectName(_fromUtf8("checkBox_complex_p1"))
-        #self.verticalLayout_complex_buttons.addWidget(self.checkBox_complex_p1)
-        #self.checkBox_complex_p2 = QtGui.QCheckBox(self.verticalLayoutWidget_7)
-        #self.checkBox_complex_p2.setText(_fromUtf8(""))
-        #self.checkBox_complex_p2.setObjectName(_fromUtf8("checkBox_complex_p2"))
-        #self.verticalLayout_complex_buttons.addWidget(self.checkBox_complex_p2)
+
         self.label_Plot_Options = QtGui.QLabel(self.centralwidget)
         self.label_Plot_Options.setGeometry(QtCore.QRect(10, 400, 51, 41))
         font = QtGui.QFont()
@@ -341,14 +370,11 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         self.label_Plot_Options.setFont(font)
         self.label_Plot_Options.setObjectName(_fromUtf8("label_Plot_Options"))
-        #self.label_add_complex = QtGui.QLabel(self.centralwidget)
-        #self.label_add_complex.setGeometry(QtCore.QRect(230, 90, 71, 31))
+
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(11)
-        #self.label_add_complex.setFont(font)
-        #self.label_add_complex.setWordWrap(False)
-        #self.label_add_complex.setObjectName(_fromUtf8("label_add_complex"))
+
         self.label_x_times = QtGui.QLabel(self.centralwidget)
         self.label_x_times.setGeometry(QtCore.QRect(290, 60, 16, 20))
         font = QtGui.QFont()
@@ -407,7 +433,6 @@ class Ui_MainWindow(object):
         self.comboBox.setItemText(1, _translate("MainWindow", "PI-Lead", None))
         self.comboBox.setItemText(2, _translate("MainWindow", "PD", None))
         self.comboBox.setItemText(3, _translate("MainWindow", "Proportional", None))
-        #self.comboBox.setItemText(4, _translate("MainWindow", "Custom", None))
         self.label_2.setText(_translate("MainWindow", "Zero / Pole Controller Form", None))
         self.label.setText(_translate("MainWindow", "Controller Gain (K)", None))
         self.lineEdit.setText(_translate("MainWindow", "0", None))
@@ -442,8 +467,7 @@ class Ui_MainWindow(object):
         self.label_Plot_Options.setText(_translate("MainWindow", "Controller\n"
 "     Plot\n"
 "  Options", None))
-        #self.label_add_complex.setText(_translate("MainWindow", "Add Complex\n"
-#" Pole or Zero", None))
+
         self.label_x_times.setText(_translate("MainWindow", "X", None))
         self.menuSISO_Toolbox.setTitle(_translate("MainWindow", "SISO Toolbox", None))
         self.menuHelp.setTitle(_translate("MainWindow", "Help", None))
